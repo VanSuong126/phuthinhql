@@ -1,0 +1,47 @@
+{
+  "plugins": [
+    [
+      "module:react-native-dotenv",
+      {
+        "envName": "APP_ENV",
+        "moduleName": "@env",
+        "path": ".env",
+        "blocklist": null,
+        "allowlist": null,
+        "blacklist": null, // DEPRECATED
+        "whitelist": null, // DEPRECATED
+        "safe": false,
+        "allowUndefined": true,
+        "verbose": false
+      }
+    ],
+    [
+      "module-resolver",
+      {
+        "alias": {
+          // main link
+          "~root": ["./src"],
+          "~assets": "./src/assets",
+          "~components": "./src/components",
+          "~config": "./src/config",
+          "~constants": "./src/constants",
+          "~data": "./src/data",
+          "~helper": "./src/helper",
+          "~navigator": "./src/navigator",
+          "~redux": "./src/redux",
+          "~screens": "./src/screens",
+          "~services": "./src/services",
+          "~theme": "./src/theme",
+          "~utils": "./src/helper/utils",
+          "~providers": "./src/providers",
+          //link child
+          "~core": "./src/screens/Core",
+          "~buttons": "./src/components/buttons",
+          "~modals": "./src/components/modals",
+          "~inputs": "./src/components/inputs",
+          "~image": "./src/assets/images"
+        }
+      }
+    ]
+  ]
+}

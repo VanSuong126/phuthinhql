@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "195755139002",
+    "project_id": "phuthinhq-47b60",
+    "storage_bucket": "phuthinhq-47b60.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:195755139002:android:5fba085e19c67c3a25c783",
+        "android_client_info": {
+          "package_name": "vn.phuthinh.manager"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC1GYt_scn5VgH5dl9xruSYYbDiwhRSRCw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

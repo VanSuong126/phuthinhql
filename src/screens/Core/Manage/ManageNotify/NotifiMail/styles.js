@@ -1,0 +1,116 @@
+import {StyleSheet} from 'react-native';
+import {
+  Sizes,
+  Colors,
+  FontStyles,
+  parseSizeHeight,
+  parseSizeWidth,
+  parseSize,
+  Width,
+} from '~theme';
+export default styles = StyleSheet.create({
+  deleteNote: {
+    position: 'absolute',
+    right: parseSizeWidth(10),
+    top: parseSizeHeight(30),
+  },
+  textBlue: {
+    fontFamily: FontStyles.InterRegular,
+    fontSize: Sizes.text_tagline2,
+    fontWeight: '400',
+    color: Colors.accent_blue,
+  },
+  textToggle: {
+    fontWeight: '500',
+    color: Colors.neutrals_700,
+  },
+  toggle: {
+    width: '100%',
+    flexDirection: 'row',
+    gap: parseSizeWidth(10),
+  },
+  thumbStyle: {
+    width: 20,
+    height: 20,
+    borderRadius: 17,
+  },
+  onToggle: {
+    width: 48,
+    height: 24,
+    borderRadius: 100,
+    backgroundColor: Colors.brand_01,
+    borderStyle: 'solid',
+    borderWidth: 1,
+    borderColor: Colors.neutrals_300,
+  },
+  offToggle: {
+    width: 48,
+    height: 24,
+    borderRadius: 100,
+    backgroundColor: Colors.neutrals_400,
+    borderStyle: 'solid',
+    borderWidth: 1,
+    borderColor: Colors.neutrals_300,
+  },
+  textNoteInput: {
+    backgroundColor: Colors.neutrals_200,
+    fontSize: Sizes.text_subtitle1,
+    fontWeight: '400',
+    color: Colors.semantics_Black,
+    paddingHorizontal: parseSizeWidth(20),
+    paddingVertical: parseSizeHeight(14),
+    caretColor: Colors.semantics_Green_02,
+  },
+  richEditor: {
+    width: parseSizeWidth(342),
+    fontWeight: '400',
+    borderRadius: parseSizeWidth(8),
+    overflow: 'hidden',
+  },
+  wrapInputNote: {
+    marginBottom: parseSizeHeight(10),
+  },
+  label: {
+    fontFamily: FontStyles.InterRegular,
+    fontSize: Sizes.text_tagline1,
+    color: Colors.neutrals_700,
+    marginBottom: parseSizeHeight(5),
+  },
+  inputText: {
+    width: parseSizeWidth(342),
+  },
+  txtCard: {
+    flex: 1,
+    fontFamily: FontStyles.InterRegular,
+    fontSize: Sizes.text_subtitle1,
+    fontWeight: '500',
+    color: Colors.neutrals_700,
+    marginHorizontal: Sizes.marginWidth,
+  },
+  card: {
+    height: parseSizeHeight(64),
+    borderRadius: parseSize(12),
+    backgroundColor: Colors.neutrals_100s,
+    borderWidth: 1,
+    borderColor: Colors.neutrals_300,
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'space-between',
+    paddingHorizontal: Sizes.paddingWidth,
+  },
+  bottom: {
+    alignItems: 'center',
+  },
+  body: {
+    alignItems: 'center',
+    flex: 1,
+    paddingHorizontal: Sizes.paddingWidth,
+    gap: Sizes.spacing_3_Width,
+  },
+  container: {
+    flex: 1,
+    backgroundColor: Colors.background,
+    paddingHorizontal: 0,
+    margin: 0,
+  },
+});

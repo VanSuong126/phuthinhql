@@ -1,0 +1,142 @@
+import {StyleSheet} from 'react-native';
+import {
+  Sizes,
+  Colors,
+  FontStyles,
+  parseSizeHeight,
+  parseSizeWidth,
+  parseSize,
+  Width,
+} from '~theme';
+
+export default styles = StyleSheet.create({
+  inputPickerBranch: {
+    height: parseSizeHeight(55),
+    paddingHorizontal: parseSizeWidth(20),
+    backgroundColor: Colors.neutrals_200,
+    borderRadius: parseSizeWidth(8),
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'space-between',
+  },
+  modalTypestyles: {
+    height: parseSizeHeight(330),
+  },
+  txtInputMonthandYear: {
+    fontFamily: FontStyles.InterRegular,
+    fontSize: Sizes.text_subtitle1,
+    color: Colors.semantics_Black,
+    textAlign: 'center',
+  },
+  txtInputDate: {
+    fontFamily: FontStyles.InterRegular,
+    fontSize: Sizes.text_subtitle1,
+    color: Colors.semantics_Black,
+    textAlign: 'center',
+  },
+  txtYear: {
+    width: parseSizeWidth(50),
+  },
+  inputFiled: {
+    height: parseSizeHeight(50),
+    width: parseSizeWidth(163),
+    paddingHorizontal: parseSizeWidth(20),
+    backgroundColor: Colors.neutrals_200,
+    borderRadius: parseSizeWidth(8),
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'space-between',
+  },
+  input: {
+    height: parseSizeHeight(50),
+    width: parseSizeWidth(342),
+    paddingHorizontal: parseSizeWidth(20),
+    backgroundColor: Colors.neutrals_200,
+    borderRadius: parseSizeWidth(8),
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'space-between',
+  },
+  chooseTime: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+  },
+  onToggle: {
+    width: 48,
+    height: 24,
+    borderRadius: 100,
+    backgroundColor: Colors.brand_01,
+    borderStyle: 'solid',
+    borderWidth: 1,
+    borderColor: Colors.neutrals_300,
+  },
+  offToggle: {
+    width: 48,
+    height: 24,
+    borderRadius: 100,
+    backgroundColor: Colors.neutrals_400,
+    borderStyle: 'solid',
+    borderWidth: 1,
+    borderColor: Colors.neutrals_300,
+  },
+  thumbStyle: {
+    width: 20,
+    height: 20,
+    borderRadius: 17,
+  },
+  txtChooseType: {
+    fontSize: Sizes.text_subtitle1,
+  },
+  chooseType: {
+    height: parseSizeHeight(50),
+    flexDirection: 'row',
+    marginVertical: Sizes.spacing_4_Height,
+    alignItems: 'center',
+    justifyContent: 'space-between',
+  },
+
+  txtBranch: {
+    fontFamily: FontStyles.InterRegular,
+    fontSize: Sizes.text_subtitle1,
+    color: Colors.semantics_Black,
+    textAlign: 'center',
+  },
+  txtCard: {
+    width: parseSizeWidth(208),
+    fontFamily: FontStyles.InterRegular,
+    fontSize: Sizes.text_subtitle1,
+    fontWeight: '500',
+    color: Colors.neutrals_700,
+  },
+  branch: {
+    marginTop: Sizes.spacing_6_Height,
+  },
+  card: {
+    height: parseSizeHeight(64),
+    borderRadius: parseSize(12),
+    backgroundColor: Colors.neutrals_100s,
+    borderWidth: 1,
+    borderColor: Colors.neutrals_300,
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'space-between',
+    paddingHorizontal: Sizes.paddingWidth,
+  },
+  txtHeader: {
+    fontFamily: FontStyles.InterRegular,
+    fontSize: Sizes.text_h3,
+    fontWeight: '600',
+    color: Colors.semantics_Black,
+    textAlign: 'left',
+  },
+  button: {
+    alignItems: 'center',
+    paddingBottom: Sizes.spacing_3_Height,
+    gap: Sizes.spacing_3_Height,
+    marginTop: Sizes.spacing_5_Height,
+  },
+  body: {
+    flex: 1,
+    backgroundColor: Colors.background,
+  },
+});
