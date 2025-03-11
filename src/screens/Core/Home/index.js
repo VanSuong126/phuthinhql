@@ -9,6 +9,7 @@ import {MyView, MySafeAreaView,MyAvoidView} from '~components/MyStyles';
 import HeaderHome from './Section/HeaderHome';
 import PoolSummary from './Section/PoolSummary';
 import MenuHome from './Section/MenuHome';
+import BannerHome from './Section/BannerHome';
 
 export default function Index(props) {
   const { t } = useTranslation();
@@ -55,6 +56,7 @@ export default function Index(props) {
           <MyView style={styles.body}>
             <PoolSummary />
             <MenuHome />
+            <BannerHome />
           </MyView>
         </MyAvoidView>
       </MyView>
