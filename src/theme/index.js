@@ -64,6 +64,10 @@ export const Colors = {
   backgroundShowPopup: '#00000059',
   //brand colors
   brand_01: '#0A8040',
+  brand_01_tint30: '#BDE7FA',
+  brand_01_tint40: '#E1F3FD',
+  brand_01_tint50: '#F1F9FE',
+  brand_01_shade20: '#096C9B',
   brand_02: '#DB8C23',
   brand_03: '#1B1B1B',
 
@@ -76,14 +80,14 @@ export const Colors = {
   neutrals_400: '#D3D4DB',
   neutrals_300: '#DDDDE3',
   neutrals_200: '#EBEBEF',
-  neutrals_100: '#F9F9FB',
+  neutrals_100: '#EFEEF0',
   neutrals_50: '#FCFCFD',
 
   //Semantics colors
   semantics_Green_01: '#0E5932',
   semantics_Green_02: '#12D56A',
   semantics_Green_03: '#E3FFF0',
-  semantics_Yellow_01: '#904918',
+  semantics_Yellow_01: '#FFBA4B',
   semantics_Yellow_02: '#E09C2F',
   semantics_Yellow_03: '#F7ECCA',
   semantics_Black: '#454545',
@@ -98,6 +102,7 @@ export const Colors = {
 
   //Accent colors
   accent_yellow: '#F9A92A',
+  accent_green: '#98FB98',
   accent_blue: '#007AFF',
 };
 
@@ -151,10 +156,10 @@ export const Sizes = {
   border: parseSize(1),
 
   //new app
-  paddingHeight: parseSizeHeight(24),
-  paddingWidth: parseSizeWidth(24),
-  marginHeight: parseSizeHeight(24),
-  marginWidth: parseSizeWidth(24),
+  paddingHeight: parseSizeHeight(16),
+  paddingWidth: parseSizeWidth(16),
+  marginHeight: parseSizeHeight(16),
+  marginWidth: parseSizeWidth(16),
 
   //new text
   text_h1: parseSizeWidth(48),
