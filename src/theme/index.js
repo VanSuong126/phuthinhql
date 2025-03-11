@@ -45,7 +45,7 @@ export const parseSizeWidth = number => {
 };
 
 export const STATUS_BAR_HEIGHT =
-  platform === 'ios' ? (isIphoneX ? 80 : 40) : StatusBar.currentHeight;
+  platform === 'ios' ? (isIphoneX ? parseSizeWidth(20) : parseSizeWidth(44)) :parseSizeWidth(10);
 
 export const Colors = {
   default: '#2b96d2',
@@ -64,6 +64,7 @@ export const Colors = {
   backgroundShowPopup: '#00000059',
   //brand colors
   brand_01: '#0A8040',
+  brand_01_primary: '#16A8E1',
   brand_01_tint30: '#BDE7FA',
   brand_01_tint40: '#E1F3FD',
   brand_01_tint50: '#F1F9FE',
@@ -78,7 +79,7 @@ export const Colors = {
   neutrals_600: '#8B8D98',
   neutrals_500: '#B9BBC6',
   neutrals_400: '#D3D4DB',
-  neutrals_300: '#DDDDE3',
+  neutrals_300: '#B9B8C1',
   neutrals_200: '#EBEBEF',
   neutrals_100: '#EFEEF0',
   neutrals_50: '#FCFCFD',

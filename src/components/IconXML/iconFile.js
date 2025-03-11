@@ -1,3 +1,60 @@
+// home icon
+export const bell = `<svg xmlns="http://www.w3.org/2000/svg" width="22" height="24" viewBox="0 0 22 24" fill="none">
+<path d="M20.5 18.5C20.5 18.5 18 15 18 12V8C18 6.14348 17.2625 4.36301 15.9497 3.05025C14.637 1.7375 12.8565 1 11 1C9.14348 1 7.36301 1.7375 6.05025 3.05025C4.7375 4.36301 4 6.14348 4 8V12C4 15 1.5 18.5 1.5 18.5H20.5Z" stroke="#454545" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M13.5 20.5C13.5 21.163 13.2366 21.7989 12.7678 22.2678C12.2989 22.7366 11.663 23 11 23C10.337 23 9.70107 22.7366 9.23223 22.2678C8.76339 21.7989 8.5 21.163 8.5 20.5" stroke="#454545" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+`;
+export const calendar = `<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M6.18799 4.60728V2.5" stroke="#93929E" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M13.0361 4.60728V2.5" stroke="#93929E" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M14.6169 4.60742H4.60728C3.44346 4.60742 2.5 5.55088 2.5 6.7147V15.6706C2.5 16.8345 3.44346 17.7779 4.60728 17.7779H14.6169C15.7807 17.7779 16.7241 16.8345 16.7241 15.6706V6.7147C16.7241 5.55088 15.7807 4.60742 14.6169 4.60742Z" stroke="#93929E" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M2.5 8.29492H16.7241" stroke="#93929E" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M9.61223 10.4023C9.03168 10.4023 8.55859 10.8754 8.55859 11.456C8.55859 12.0365 9.03168 12.5096 9.61223 12.5096C10.1928 12.5096 10.6659 12.0365 10.6659 11.456C10.6659 10.8754 10.1928 10.4023 9.61223 10.4023Z" stroke="#93929E"/>
+<path d="M13.2997 12.5096C13.8803 12.5096 14.3534 12.0365 14.3534 11.456C14.3534 10.8754 13.8803 10.4023 13.2997 10.4023C12.7192 10.4023 12.2461 10.8754 12.2461 11.456C12.2461 12.0365 12.7192 12.5096 13.2997 12.5096Z" stroke="#93929E"/>
+<path d="M9.61223 13.563C9.03168 13.563 8.55859 14.0361 8.55859 14.6166C8.55859 15.1972 9.03168 15.6703 9.61223 15.6703C10.1928 15.6703 10.6659 15.1972 10.6659 14.6166C10.6659 14.0361 10.1928 13.563 9.61223 13.563Z" stroke="#93929E"/>
+<path d="M5.92425 13.563C5.34369 13.563 4.87061 14.0361 4.87061 14.6166C4.87061 15.1972 5.34369 15.6703 5.92425 15.6703C6.5048 15.6703 6.97788 15.1972 6.97788 14.6166C6.97788 14.0361 6.5048 13.563 5.92425 13.563Z" stroke="#93929E"/>
+<path d="M13.2997 13.563C12.7192 13.563 12.2461 14.0361 12.2461 14.6166C12.2461 15.1972 12.7192 15.6703 13.2997 15.6703C13.8803 15.6703 14.3534 15.1972 14.3534 14.6166C14.3534 14.0361 13.8803 13.563 13.2997 13.563Z" stroke="#93929E"/>
+</svg>
+
+`;
+export const home = `<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M1.5 9.75 12 1.5l10.5 8.25" stroke="url(#s5jp5lxzva)" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M9.75 21.75V15h4.5v6.75" stroke="url(#gzf759cg0b)" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M3.75 12v7.5A2.25 2.25 0 0 0 6 21.75h12a2.25 2.25 0 0 0 2.25-2.25V12" stroke="url(#wgca2bvunc)" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+    <defs>
+        <linearGradient id="s5jp5lxzva" x1="1.5" y1="5.625" x2="22.5" y2="5.625" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#6D6D6D"/>
+            <stop offset="1" stop-color="#6D6D6D"/>
+        </linearGradient>
+        <linearGradient id="gzf759cg0b" x1="9.75" y1="18.375" x2="14.25" y2="18.375" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#6D6D6D"/>
+            <stop offset="1" stop-color="#6D6D6D"/>
+        </linearGradient>
+        <linearGradient id="wgca2bvunc" x1="3.75" y1="16.875" x2="20.25" y2="16.875" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#6D6D6D"/>
+            <stop offset="1" stop-color="#6D6D6D"/>
+        </linearGradient>
+    </defs>
+</svg>
+`;
+export const file = `<svg width="20" height="24" viewBox="0 0 20 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M7 1.5V5.25C7 6.49275 5.99275 7.5 4.75 7.5H1" stroke="#454545" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M7 1.5H16.75C17.9927 1.5 19 2.50725 19 3.75V20.25C19 21.4927 17.9927 22.5 16.75 22.5H3.25C2.00725 22.5 1 21.4927 1 20.25V7.5L7 1.5Z" stroke="#454545" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M4.75 16.5H15.25" stroke="#454545" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M4.75 12H15.25" stroke="#454545" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M10.75 7.5H15.25" stroke="#454545" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+`;
+export const star = `<svg width="20" height="20" viewBox="0 0 20 20" stroke="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M6.28653 3.32244L4.8832 2.85466L4.41542 1.45133C4.2632 0.997995 3.5132 0.997995 3.36097 1.45133L2.8932 2.85466L1.48986 3.32244C1.2632 3.39799 1.10986 3.61022 1.10986 3.84911C1.10986 4.08799 1.2632 4.30022 1.48986 4.37577L2.8932 4.84355L3.36097 6.24688C3.43653 6.47355 3.64986 6.62688 3.88875 6.62688C4.12764 6.62688 4.33986 6.47355 4.41653 6.24688L4.88431 4.84355L6.28764 4.37577C6.51431 4.30022 6.66764 4.08799 6.66764 3.84911C6.66764 3.61022 6.5132 3.39799 6.28653 3.32244Z" fill="none"/>
+<path d="M10.5552 3.05566L12.6796 8.43011L18.0552 10.5557L12.6796 12.6812L10.5552 18.0557L8.42962 12.6812L3.05518 10.5557L8.42962 8.43011L10.5552 3.05566Z" stroke="#93929E" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+`;
+export const user = `<svg width="21" height="20" viewBox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M10.4999 8.05545C12.1874 8.05545 13.5554 6.68743 13.5554 4.99989C13.5554 3.31235 12.1874 1.94434 10.4999 1.94434C8.81235 1.94434 7.44434 3.31235 7.44434 4.99989C7.44434 6.68743 8.81235 8.05545 10.4999 8.05545Z" stroke="#93929E" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M15.791 17.2397C16.7466 16.9386 17.2488 15.883 16.8432 14.9675C15.7655 12.533 13.3332 10.833 10.4999 10.833C7.66657 10.833 5.23435 12.533 4.15657 14.9675C3.75101 15.8841 4.25324 16.9386 5.20879 17.2397C6.5699 17.6686 8.37101 18.0552 10.4999 18.0552C12.6288 18.0552 14.4299 17.6686 15.791 17.2397Z" stroke="#93929E" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+`;
 export const xRemoveCircle = `<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M12 22.5C17.799 22.5 22.5 17.799 22.5 12C22.5 6.20101 17.799 1.5 12 1.5C6.20101 1.5 1.5 6.20101 1.5 12C1.5 17.799 6.20101 22.5 12 22.5Z" fill="#FFDDDD" stroke="#FFDDDD" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
 <path d="M15.75 8.25L8.25 15.75" stroke="#B10303" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
@@ -326,11 +383,7 @@ export const tickWhite = `<svg width="18" height="18" viewBox="0 0 18 18" fill="
 </svg>
 `;
 
-export const bell = `<svg xmlns="http://www.w3.org/2000/svg" width="22" height="24" viewBox="0 0 22 24" fill="none">
-<path d="M20.5 18.5C20.5 18.5 18 15 18 12V8C18 6.14348 17.2625 4.36301 15.9497 3.05025C14.637 1.7375 12.8565 1 11 1C9.14348 1 7.36301 1.7375 6.05025 3.05025C4.7375 4.36301 4 6.14348 4 8V12C4 15 1.5 18.5 1.5 18.5H20.5Z" stroke="#454545" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M13.5 20.5C13.5 21.163 13.2366 21.7989 12.7678 22.2678C12.2989 22.7366 11.663 23 11 23C10.337 23 9.70107 22.7366 9.23223 22.2678C8.76339 21.7989 8.5 21.163 8.5 20.5" stroke="#454545" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-</svg>
-`;
+
 
 export const profile = `<svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M18.75 18.75H11.25C7.10813 18.75 3.75 22.1081 3.75 26.25V27.5C3.75 27.5 7.65625 28.75 15 28.75C22.3438 28.75 26.25 27.5 26.25 27.5V26.25C26.25 22.1081 22.8919 18.75 18.75 18.75Z" stroke="#6D6D6D" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
@@ -485,10 +538,6 @@ export const plusNoBG = `<svg width="12" height="12" viewBox="0 0 12 12" fill="n
     </defs>
 </svg>`;
 
-export const calendar = `<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-    <path d="M2 10h20M7 2v3M17 2v3M20 5H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2z" stroke="#212121" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-</svg>
-`;
 
 export const chartLine = `<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
     <path d="M19.5 2.25h-15A2.25 2.25 0 0 0 2.25 4.5v15a2.25 2.25 0 0 0 2.25 2.25h15a2.25 2.25 0 0 0 2.25-2.25v-15a2.25 2.25 0 0 0-2.25-2.25z" stroke="#454545" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
@@ -588,27 +637,6 @@ export const locationMap = `<svg width="64" height="64" viewBox="0 0 64 64" fill
 
 export const threeDot = `<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
     <path d="M11.5 6a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3zM11.5 13a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3zM11.5 20a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z" fill="#6D6D6D"/>
-</svg>
-`;
-
-export const home = `<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-    <path d="M1.5 9.75 12 1.5l10.5 8.25" stroke="url(#s5jp5lxzva)" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-    <path d="M9.75 21.75V15h4.5v6.75" stroke="url(#gzf759cg0b)" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-    <path d="M3.75 12v7.5A2.25 2.25 0 0 0 6 21.75h12a2.25 2.25 0 0 0 2.25-2.25V12" stroke="url(#wgca2bvunc)" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-    <defs>
-        <linearGradient id="s5jp5lxzva" x1="1.5" y1="5.625" x2="22.5" y2="5.625" gradientUnits="userSpaceOnUse">
-            <stop stop-color="#6D6D6D"/>
-            <stop offset="1" stop-color="#6D6D6D"/>
-        </linearGradient>
-        <linearGradient id="gzf759cg0b" x1="9.75" y1="18.375" x2="14.25" y2="18.375" gradientUnits="userSpaceOnUse">
-            <stop stop-color="#6D6D6D"/>
-            <stop offset="1" stop-color="#6D6D6D"/>
-        </linearGradient>
-        <linearGradient id="wgca2bvunc" x1="3.75" y1="16.875" x2="20.25" y2="16.875" gradientUnits="userSpaceOnUse">
-            <stop stop-color="#6D6D6D"/>
-            <stop offset="1" stop-color="#6D6D6D"/>
-        </linearGradient>
-    </defs>
 </svg>
 `;
 export const list = `<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -951,15 +979,6 @@ export const visa = `<svg width="30" height="21" viewBox="0 0 30 21" fill="none"
 </svg>
 `;
 
-export const file = `<svg width="20" height="24" viewBox="0 0 20 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M7 1.5V5.25C7 6.49275 5.99275 7.5 4.75 7.5H1" stroke="#454545" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M7 1.5H16.75C17.9927 1.5 19 2.50725 19 3.75V20.25C19 21.4927 17.9927 22.5 16.75 22.5H3.25C2.00725 22.5 1 21.4927 1 20.25V7.5L7 1.5Z" stroke="#454545" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M4.75 16.5H15.25" stroke="#454545" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M4.75 12H15.25" stroke="#454545" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M10.75 7.5H15.25" stroke="#454545" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-</svg>
-`;
-
 export const customer = `<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M7.66667 10.9998C9.13943 10.9998 10.3333 9.80593 10.3333 8.33317C10.3333 6.86041 9.13943 5.6665 7.66667 5.6665C6.19391 5.6665 5 6.86041 5 8.33317C5 9.80593 6.19391 10.9998 7.66667 10.9998Z" stroke="#454545" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 <path d="M12.812 20.1625C13.5093 19.9291 13.9187 19.1705 13.66 18.4838C12.7467 16.0598 10.412 14.3345 7.66801 14.3345C4.92401 14.3345 2.58934 16.0598 1.67601 18.4838C1.41734 19.1718 1.82667 19.9305 2.52401 20.1625C3.80667 20.5905 5.56534 20.9998 7.66934 20.9998C9.77334 20.9998 11.5307 20.5905 12.812 20.1625Z" stroke="#454545" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
@@ -1157,5 +1176,22 @@ export const image = `<svg xmlns="http://www.w3.org/2000/svg" width="16" height=
   <path d="M5.58667 10.243L10.7927 5.04301C11.1837 4.65201 11.8167 4.65201 12.2067 5.04301L15.2497 8.08601" stroke="#454545" stroke-linecap="round" stroke-linejoin="round"/>
   <path d="M0.749756 4.75V11.25C0.749756 12.355 1.64476 13.25 2.74976 13.25H11.2498" stroke="#454545" stroke-linecap="round" stroke-linejoin="round"/>
   <path d="M5.74976 10.25L13.2498 10.25C14.3543 10.25 15.2498 9.35457 15.2498 8.25L15.2498 2.75C15.2498 1.64543 14.3543 0.75 13.2498 0.75L5.74976 0.75C4.64519 0.75 3.74976 1.64543 3.74976 2.75L3.74976 8.25C3.74976 9.35457 4.64519 10.25 5.74976 10.25Z" stroke="#454545" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+`;
+export const trash = `<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M15.6083 8.3335H15.625L15.275 16.736C15.2375 17.6285 14.5033 18.3335 13.61 18.3335H6.39C5.49667 18.3335 4.76167 17.6293 4.725 16.736L4.375 8.3335H4.39167" stroke="#B9B8C1" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M2.5 5H17.5" stroke="#B9B8C1" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M7.5 5.00008V1.66675H12.5V5.00008" stroke="#B9B8C1" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M6.66699 10H13.3337" stroke="#B9B8C1" stroke-linecap="round"/>
+<path d="M8.33301 14.1667H11.6663" stroke="#B9B8C1" stroke-linecap="round"/>
+</svg>
+`;
+export const cleanListIcon = `<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<mask id="mask0_605_7" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="24" height="24">
+<rect width="24" height="24" fill="#D9D9D9"/>
+</mask>
+<g mask="url(#mask0_605_7)">
+<path d="M19 19.425L16.875 21.525L15.475 20.125L17.575 18L15.475 15.875L16.875 14.475L19 16.575L21.125 14.475L22.525 15.875L20.425 18L22.525 20.125L21.125 21.525L19 19.425ZM6 22C5.16667 22 4.45833 21.7083 3.875 21.125C3.29167 20.5417 3 19.8333 3 19V16H6V2H21V12.375C20.6833 12.2583 20.3583 12.1708 20.025 12.1125C19.6917 12.0542 19.35 12.025 19 12.025V4H8V16H13.35C13.2333 16.3167 13.1458 16.6417 13.0875 16.975C13.0292 17.3083 13 17.65 13 18H5V19C5 19.2833 5.09583 19.5208 5.2875 19.7125C5.47917 19.9042 5.71667 20 6 20H13.35C13.4833 20.3833 13.65 20.7417 13.85 21.075C14.05 21.4083 14.2833 21.7167 14.55 22H6ZM9 9V7H18V9H9ZM9 12V10H18V12H9Z" fill="#454545"/>
+</g>
 </svg>
 `;

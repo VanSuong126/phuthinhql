@@ -4,12 +4,13 @@ import { useTranslation } from 'react-i18next';
 import { StyleSheet, AppState } from 'react-native';
 
 import LocalDB from '~data/asyncStorage';
-import { Sizes,Colors, parseSizeWidth} from '~theme';
-import {MyView, MySafeAreaView,MyAvoidView} from '~components/MyStyles';
+import { Sizes,Colors, parseSizeWidth, STATUS_BAR_HEIGHT} from '~theme';
+import {MyView, MyAvoidView} from '~components/MyStyles';
 import HeaderHome from './Section/HeaderHome';
 import PoolSummary from './Section/PoolSummary';
 import MenuHome from './Section/MenuHome';
 import BannerHome from './Section/BannerHome';
+import BottomNavigate from '~components/BottomNavigate';
 
 export default function Index(props) {
   const { t } = useTranslation();
@@ -49,7 +50,7 @@ export default function Index(props) {
   }, []);
 
   return (
-    <MySafeAreaView style={styles.container}>
+    <MyView style={styles.container}>
       <MyView style={styles.content}>
         <HeaderHome/>
         <MyAvoidView>
@@ -60,7 +61,8 @@ export default function Index(props) {
           </MyView>
         </MyAvoidView>
       </MyView>
-    </MySafeAreaView>
+      <BottomNavigate />
+    </MyView>
   );
 }
 
@@ -69,6 +71,7 @@ const styles = StyleSheet.create({
     flex: 1,
     backgroundColor: Colors.background,
     paddingHorizontal: 0,
+    paddingTop:STATUS_BAR_HEIGHT,
   },
   content: {
     flex: 1,
