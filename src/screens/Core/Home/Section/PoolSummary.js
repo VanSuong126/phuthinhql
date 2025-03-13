@@ -29,7 +29,7 @@ export default function Index() {
       <Line
         type="dotted"
         thickness={2}
-        color={Colors.brand_02_tint80}
+        color={Colors.brand_02_tint70}
         width="100%"
       />
       <MyView style={styles.wrapBodyCheckMember}>
