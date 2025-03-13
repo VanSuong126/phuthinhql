@@ -67,7 +67,7 @@ const styles = StyleSheet.create({
     activeMenuItem: {
         borderTopWidth: parseSizeWidth(2),
         marginHorizontal: parseSizeWidth(10),
-        borderTopColor: Colors.accent_green,
+        borderTopColor: Colors.accent_system_02,
     },
     label: {
         fontSize: Sizes.text_tagline1,
@@ -77,4 +77,4 @@ const styles = StyleSheet.create({
     activeLabel: {
         color: Colors.brand_01_primary,
     },
-});
+}); 

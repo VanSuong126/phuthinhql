@@ -1,23 +1,22 @@
-import {Dimensions, Platform, StatusBar} from 'react-native';
 import {LocaleConfig} from 'react-native-calendars';
-
+import { Dimensions, Platform } from 'react-native';
 import deviceInfo from '~helper/deviceInfo';
 
 export const platform = Platform.OS;
 const deviceName = deviceInfo.deviceName || '';
 let iPhoneX = [
-  'IPHONE X',
-  'IPHONE XS',
-  'IPHONE XS MAX',
-  'IPHONE XR',
-  'IPHONE 11',
-  'IPHONE 11 PRO',
-  'IPHONE 11 PRO MAX',
-  'IPHONE 12',
-  'IPHONE 12 PRO',
-  'IPHONE 12 PRO MAX',
-  'IPHONE 12 MINI',
+  'IPHONE 6',
+  'IPHONE 6 PLUS',
+  'IPHONE 6S',
+  'IPHONE 6S PLUS',
+  'IPHONE 7',
+  'IPHONE 7 PLUS',
+  'IPHONE 8',
+  'IPHONE 8 PLUS',
+  'IPHONE SE (2016)', // iPhone SE thế hệ đầu tiên
+  'IPHONE SE (2020)', // iPhone SE thế hệ thứ 2 (với thiết kế giống iPhone 8)
 ];
+
 export const isIphoneX =
   platform === 'ios' && iPhoneX.indexOf(deviceName.toUpperCase()) > -1;
 
@@ -48,63 +47,59 @@ export const STATUS_BAR_HEIGHT =
   platform === 'ios' ? (isIphoneX ? parseSizeWidth(20) : parseSizeWidth(44)) :parseSizeWidth(10);
 
 export const Colors = {
-  default: '#2b96d2',
-  // background: '#F5F6F7',
-  content: '#FFFFFF',
-  red: '#FF0000',
-  black: '#000000',
-  white: '#FFFFFF',
-  dark: '#414141',
-  danger: '#E55752',
-  lightDanger: '#fd8389',
-  success: '#08B938',
-
-  //colors new
-  background: '#F6F6F6',
-  backgroundShowPopup: '#00000059',
+  background:'#FFFFFF',
   //brand colors
-  brand_01: '#0A8040',
   brand_01_primary: '#16A8E1',
-  brand_01_tint30: '#BDE7FA',
-  brand_01_tint40: '#E1F3FD',
-  brand_01_tint50: '#F1F9FE',
-  brand_01_shade20: '#096C9B',
-  brand_02: '#DB8C23',
-  brand_03: '#1B1B1B',
+  brand_02_primary: '#0A2E43',
+  brand_02_tint10: '#104C6A',
+  brand_02_tint20: '#0C5C80',
+  brand_02_tint30: '#096C9B',
+  brand_02_tint40: '#0A88BF',
+  brand_02_tint50: '#3FC0F1',
+  brand_02_tint60: '#82D5F7',
+  brand_02_tint70: '#BDE7FA',
+  brand_02_tint80: '#E1F3FD',
+  brand_02_tint90: '#F1F9FE',
 
   //Neutrals color
-  neutrals_900: '#1C2024',
-  neutrals_800: '#60646C',
-  neutrals_700: '#7E808A',
-  neutrals_600: '#8B8D98',
-  neutrals_500: '#B9BBC6',
-  neutrals_400: '#D3D4DB',
+  neutrals_950: '#27262B',
+  neutrals_900: '#3B3A40',
+  neutrals_800: '#43424A',
+  neutrals_700: '#4F4D57',
+  neutrals_600: '#605E6B',
+  neutrals_500: '#6E6D7A',
+  neutrals_400: '#93929E',
   neutrals_300: '#B9B8C1',
-  neutrals_200: '#EBEBEF',
+  neutrals_200: '#DAD9DE',
   neutrals_100: '#EFEEF0',
-  neutrals_50: '#FCFCFD',
+  neutrals_50: '#FBFBFB',
 
   //Semantics colors
-  semantics_Green_01: '#0E5932',
-  semantics_Green_02: '#12D56A',
-  semantics_Green_03: '#E3FFF0',
-  semantics_Yellow_01: '#FFBA4B',
-  semantics_Yellow_02: '#E09C2F',
-  semantics_Yellow_03: '#F7ECCA',
-  semantics_Black: '#454545',
-  semantics_Grey: '#6D6D6D',
-  semantics_Grey_01: '#454545',
-  semantics_Grey_02: '#6D6D6D',
-  semantics_Grey_03: '#E7E7E7',
-  semantics_SmokyGrey: '#E7E7E7',
-  semantics_Red_01: '#B10303',
+  semantics_green_01: '#1CBF8E',
+  semantics_green_02: '#12D56A',
+  semantics_yellow_01: '#E1C469',
+  semantics_yellow_02: '#F9B54A',
+  semantics_Red_01: '#E27C7C',
   semantics_Red_02: '#FF0303',
-  semantics_Red_03: '#FFDDDD',
+
+  // Secondary colors
+  secondary_shade_50: '#042A22',
+  secondary_shade_40: '#0A4A3B',
+  secondary_shade_30: '#0B5A46',
+  secondary_shade_20: '#0B7157',
+  secondary_shade_10: '#0D8E6A',
+  secondary_primary: '#1CBF8E',
+  secondary_tint_10: '#3DCA9B',
+  secondary_tint_20: '#75E0B9',
+  secondary_tint_30: '#ABEFD2',
+  secondary_tint_40: '#D3F8E6',
+  secondary_tint_50: '#EDFCF5',
 
   //Accent colors
-  accent_yellow: '#F9A92A',
-  accent_green: '#98FB98',
-  accent_blue: '#007AFF',
+  accent_system_01: '#FFB6C1',
+  accent_system_02: '#98FB98',
+
+
 };
 
 export const ColorStatus = {

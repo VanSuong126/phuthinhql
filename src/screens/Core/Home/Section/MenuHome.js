@@ -49,7 +49,7 @@ const styles = StyleSheet.create({
         justifyContent:'center',
         height:parseSizeWidth(80),
         borderRadius:parseSizeWidth(8),
-        backgroundColor: Colors.brand_01_tint50,
+        backgroundColor: Colors.brand_02_tint90,
     },
     icon: {
         width: parseSizeWidth(42),

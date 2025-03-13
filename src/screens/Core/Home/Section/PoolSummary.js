@@ -29,7 +29,7 @@ export default function Index() {
       <Line
         type="dotted"
         thickness={2}
-        color={Colors.brand_01_tint30}
+        color={Colors.brand_02_tint80}
         width="100%"
       />
       <MyView style={styles.wrapBodyCheckMember}>
@@ -39,7 +39,7 @@ export default function Index() {
             <MyView
               style={[
                 styles.colorTypeMember,
-                { backgroundColor: Colors.semantics_Yellow_01 },
+                { backgroundColor: Colors.semantics_yellow_01 },
               ]}
             />
           </MyView>
@@ -53,7 +53,7 @@ export default function Index() {
             <MyView
               style={[
                 styles.colorTypeMember,
-                { backgroundColor: Colors.accent_green },
+                { backgroundColor: Colors.accent_system_02 },
               ]}
             />
           </MyView>
@@ -79,7 +79,7 @@ export default function Index() {
 
 const styles = StyleSheet.create({
   wrapCheckMember: {
-    backgroundColor: Colors.brand_01_tint40,
+    backgroundColor: Colors.brand_02_tint80,
     gap: parseSizeWidth(14),
     paddingHorizontal: parseSizeWidth(16),
     paddingVertical: parseSizeWidth(12),
@@ -96,7 +96,7 @@ const styles = StyleSheet.create({
   textTitleHeadCheck: {
     fontSize: Sizes.text_h6,
     fontWeight: '600',
-    color: Colors.brand_01_shade20,
+    color: Colors.brand_02_tint30,
   },
   textNumberCustomer: {
     fontSize: Sizes.text_subtitle1,
