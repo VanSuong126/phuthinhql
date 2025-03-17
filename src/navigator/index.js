@@ -3,7 +3,7 @@ import {NavigationContainer} from '@react-navigation/native';
 import {createNativeStackNavigator} from '@react-navigation/native-stack';
 
 import {
-  Splash,
+  // Splash,
   Login,
   Register,
   ChangePassword,
@@ -68,7 +68,7 @@ const Stack = createNativeStackNavigator();
 
 const Navigation = ({skipScreen}) => {
   // Xác định màn hình khởi tạo dựa trên giá trị của skipScreen
-  let initialRouteName = 'Splash';
+  let initialRouteName = 'skipSplash';
   if (skipScreen === 'skipSplash') {
     initialRouteName = 'Login';
   } else if (skipScreen === 'skipLogin') {
@@ -84,7 +84,7 @@ const Navigation = ({skipScreen}) => {
           gestureEnabled: false,
         }}>
         {/* login*/}
-        <Stack.Screen name="Splash" component={Splash} />
+        {/* <Stack.Screen name="Splash" component={Splash} /> */}
         <Stack.Screen name="Login" component={Login} />
         <Stack.Screen name="Register" component={Register} />
         <Stack.Screen name="ChangePassword" component={ChangePassword} />
@@ -164,7 +164,7 @@ const Navigation = ({skipScreen}) => {
           initialParams={{type: 'update'}}
         />
         <Stack.Screen name="dieu-chinh-san-pham" component={AdjustProduct} />
-        <Stack.Screen name="quan-tri-nguoi-dung" component={ManagerStaff} />
+        <Stack.Screen name="QuanLyNhanVien" component={ManagerStaff} />
         <Stack.Screen name="them-moi-nhan-vien" component={CreateStaff} />
         <Stack.Screen name="chon-khach-hang" component={SelectCustomer} />
         <Stack.Screen name="don-hang" component={ManageOrder} />

@@ -21,7 +21,7 @@ export default styles = StyleSheet.create({
     width: parseSizeWidth(46),
     height: parseSizeHeight(48),
     borderRadius: 25,
-    backgroundColor: Colors.neutrals_100,
+    backgroundColor: Colors.neutrals_50,
     alignItems: 'center',
     justifyContent: 'center',
     borderStyle: 'solid',
@@ -47,7 +47,7 @@ export default styles = StyleSheet.create({
     gap: 10,
   },
   wrapInputSearch: {
-    backgroundColor: Colors.neutrals_100,
+    backgroundColor: Colors.neutrals_50,
     flexDirection: 'row',
     borderWidth: parseSize(1),
     borderColor: Colors.neutrals_300,

@@ -45,31 +45,7 @@ const Index = ({data = [], isTabSelected}) => {
       },
     );
   };
-  // const sendMail = item => {
-  //   const params = {
-  //     to: item?.email,
-  //     title: `Đổi mật khẩu tài khoản ${item?.taiKhoan}`,
-  //     body: `<div>
-  //     <div style="border-radius: 10px; text-align: center; font-size: 20px; box-shadow: 3px 0px 5px 2px #999999; padding: 10px; width: 80%; margin: 0 auto; border: 1px solid #ccc">
-  //      <div style="width: 150px; margin: 0 auto; padding-bottom: 20px;">
-  //        <img src="https://uat.phuckhanggem.com/_imageslibrary/logo.png" style="width: 100%; object-fit: cover" />
-  //      </div>
-  //      <div style="font-weight: bold">Đổi mật khẩu tài khoản ${item?.taiKhoan} thành công.</div>
-  //      <div>Sử mật khẩu <b>${item?.matKhau}</b> để đăng nhập</div>
-  //      <div style="font-style: italic; margin-top: 50px; font-size: 15px">Đây là thư gửi tự động. Vui lòng không trả lời. Cảm ơn./.</div>
-  //      </div>
-  //     </div>`,
-  //   };
-  //   fetchData(dispatch, 'sendMailBooking', params, data => {
-  //     if (data.success) {
-  //       Toast.show({
-  //         type: 'success',
-  //         props: {message: t('warningChangePassStaff')},
-  //       });
-  //     }
-  //   });
-  // };
-
+  
   const handleChangePass = item => {
     fetchData(
       dispatch,

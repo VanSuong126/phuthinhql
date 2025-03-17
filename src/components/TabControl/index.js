@@ -1,62 +1,64 @@
-import React, {useState} from 'react';
-import {StyleSheet} from 'react-native';
-import SegmentedControlTab from 'react-native-segmented-control-tab';
-import {Colors, Sizes, parseSizeHeight, parseSizeWidth} from '~theme';
-import {FontStyles} from '~theme';
+import React from 'react';
+import { StyleSheet, TouchableOpacity, Text, View, SafeAreaView } from 'react-native';
+import { Colors, Sizes, parseSizeHeight, parseSizeWidth, Width } from '~theme';
+import { FontStyles } from '~theme';
 
-const Index = ({tabs, onTabPress, selectedIndex}) => {
-  const handleIndexChange = index => {
-    onTabPress(index);
-  };
-
+const Index = ({ tabs, onTabPress, selectedIndex }) => {
   return (
-    <SegmentedControlTab
-      values={tabs}
-      borderRadius={20}
-      selectedIndex={selectedIndex}
-      onTabPress={handleIndexChange}
-      tabsContainerStyle={styles.tabsContainerStyle}
-      activeTabStyle={styles.activeTabStyle}
-      tabStyle={styles.tabStyle}
-      tabTextStyle={styles.tabTextStyle}
-      allowFontScaling={false}
-    />
+    <View style={styles.tabsContainerStyle}>
+      {tabs.map((tab, index) => (
+        <TouchableOpacity
+          key={index}
+          style={[
+            styles.tabStyle,
+            selectedIndex === index && styles.activeTabStyle
+          ]}
+          onPress={() => onTabPress(index)}
+        >
+          <Text
+            style={[
+              styles.tabTextStyle,
+              selectedIndex === index && styles.activeTabTextStyle
+            ]}
+          >
+            {tab}
+          </Text>
+        </TouchableOpacity>
+      ))}
+    </View>
   );
 };
 
 export default Index;
 
 const styles = StyleSheet.create({
+  tabsContainerStyle: {
+    width: Width,
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'flex-start',
+    gap: parseSizeWidth(12),
+    paddingHorizontal: Sizes.paddingWidth,
+  },
+  tabStyle: {
+    alignItems: 'center',
+    justifyContent: 'center',
+    paddingVertical: parseSizeWidth(10),
+    paddingHorizontal: parseSizeWidth(24),
+    borderRadius: parseSizeWidth(12),
+    backgroundColor: Colors.brand_02_tint80,
+  },
+  activeTabStyle: {
+    backgroundColor: Colors.brand_01_primary,
+  },
   tabTextStyle: {
     fontFamily: FontStyles.InterRegular,
     fontSize: Sizes.text_subtitle2,
     fontWeight: '500',
     textAlign: 'center',
-    color: Colors.neutrals_700,
+    color: Colors.neutrals_900,
   },
-  tabStyle: {
-    borderColor: 'transparent',
-    backgroundColor: 'transparent',
-    marginHorizontal: parseSizeWidth(4),
-    paddingVertical: parseSizeHeight(7),
-    height: parseSizeHeight(37),
-  },
-  activeTabStyle: {
-    backgroundColor: Colors.brand_01,
-    zIndex: 1,
-    borderRadius: 20,
-    height: parseSizeHeight(37),
-  },
-  tabsContainerStyle: {
-    marginHorizontal: Sizes.marginWidth,
-    height: parseSizeHeight(48),
-    borderRadius: 100,
-    borderWidth: 1,
-    borderColor: Colors.neutrals_300,
-    borderStyle: 'solid',
-    backgroundColor: Colors.neutrals_100,
-    alignSelf: 'center',
-    alignItems: 'center',
-    justifyContent: 'center',
+  activeTabTextStyle: {
+    color: Colors.neutrals_50,
   },
 });

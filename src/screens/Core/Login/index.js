@@ -236,7 +236,7 @@ const styles = StyleSheet.create({
   },
   container: {
     flex: 1,
-    backgroundColor: Colors.white,
+    backgroundColor: Colors.neutrals_50,
   },
   content: {
     flex: 1,
@@ -265,7 +265,7 @@ const styles = StyleSheet.create({
     height: Height * 0.7,
     borderTopLeftRadius: parseSize(24),
     borderTopRightRadius: parseSize(24),
-    backgroundColor: Colors.white,
+    backgroundColor: Colors.neutrals_50,
     marginTop: Sizes.marginHeight,
     paddingHorizontal: Sizes.paddingWidth,
   },
@@ -324,7 +324,7 @@ const styles = StyleSheet.create({
     fontFamily: FontStyles.InterRegular,
     fontSize: Sizes.textDefault,
     fontWeight: '600',
-    color: Colors.brand_01,
+    color: Colors.brand_system_02,
   },
   wrapRegisterNow: {
     justifyContent: 'center',

@@ -29,7 +29,7 @@ const Index = props => {
   return (
     <MyView style={styles.box}>
       <MyText style={styles.txtName}>{`${data?.ho} ${data?.ten}`}</MyText>
-      <Line color={Colors.neutrals_300} />
+      <Line color={Colors.brand_02_tint70} />
       <MyView style={styles.horizontal}>
         <MyView style={styles.horizontal}>
           <Icon name="employee" width="18" height="18" />
@@ -108,25 +108,25 @@ const styles = StyleSheet.create({
     color: Colors.neutrals_700,
   },
   unBlock: {
-    backgroundColor: Colors.neutrals_200,
+    backgroundColor: Colors.neutrals_200, 
   },
   txtUpdate: {
-    color: Colors.semantics_Green_01,
+    color: Colors.neutrals_50,
   },
   update: {
-    backgroundColor: Colors.semantics_Green_03,
+    backgroundColor: Colors.semantics_green_01,
   },
   txtChangePass: {
-    color: Colors.semantics_Yellow_01,
+    color: Colors.neutrals_50,
   },
   changePass: {
-    backgroundColor: Colors.semantics_Yellow_03,
+    backgroundColor: Colors.semantics_yellow_02, 
   },
   txtBlock: {
-    color: Colors.semantics_Red_01,
+    color: Colors.neutrals_50,
   },
   block: {
-    backgroundColor: Colors.semantics_Red_03,
+    backgroundColor: Colors.semantics_Red_01,
   },
   txtButton: {
     fontFamily: FontStyles.InterRegular,
@@ -178,9 +178,9 @@ const styles = StyleSheet.create({
   },
   box: {
     borderRadius: parseSize(12),
-    backgroundColor: Colors.neutrals_100,
+    backgroundColor: Colors.brand_02_tint90,
     borderWidth: 1,
-    borderColor: Colors.neutrals_300,
+    borderColor: Colors.brand_02_tint70,
     padding: parseSize(16),
     gap: Sizes.spacing_3_Height,
   },

@@ -81,8 +81,10 @@ const Index = () => {
 
   return (
     <MySafeAreaView style={styles.container}>
-      <HeaderToolBar nameHeaderTitle={t('manageEmployee')} />
-
+      <HeaderToolBar nameHeaderTitle={t('manageEmployee')}
+       iconRight="plus"
+       onPressRight={handleUpdateEmployee}
+        />
       <MyView style={styles.body}>
         <MyView style={styles.tabControl}>
           <TabControl
@@ -112,11 +114,6 @@ const Index = () => {
           )}
         </MyView>
       </MyView>
-      <Bottom
-        sticky={false}
-        titleBtn1={t('addEmployee')}
-        onPress1={handleUpdateEmployee}
-      />
     </MySafeAreaView>
   );
 };
